@@ -46,6 +46,7 @@ app.get('/run/:script', async (req, res) => {
     const { stdout, stderr } = await exec(scriptPath);
     if (stdout) log(`[${script}] StdOut : ${stdout}`);
     if (stderr) log(`[${script}] StdErr : ${stderr}`);
+    log(`[${script}] Successfully executed.`);
   } catch (err) {
     log(`[${script}] Occurred error :\n${err}`);
   };
