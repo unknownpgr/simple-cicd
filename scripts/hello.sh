@@ -1,1 +1,1 @@
-echo Hello world!
+touch HELLO_WORLD
