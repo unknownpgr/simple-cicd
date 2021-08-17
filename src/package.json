@@ -1,0 +1,10 @@
+{
+  "name": "simple-cicd-server",
+  "version": "1.0.0",
+  "description": "Simple CI/CD server for the-form",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
